@@ -19,7 +19,7 @@ func newBufferPool() *bufferPool {
 	return p
 }
 
-// Get retrieves a byte buffer from p.underlying and resets it so that it is
+// Get retrieves a byte buffer from the pool and resets it so that it is
 // ready to use.
 func (p *bufferPool) Get() *bytes.Buffer {
 	buf := p.underlying.Get().(*bytes.Buffer)

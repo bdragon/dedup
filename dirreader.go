@@ -92,9 +92,10 @@ func (r *dirReader) enqueue(path string) {
 
 // handle reads file names from the directory located at path and sends file
 // paths on r.out. If path is "/dir" and a file is named "file1", "/dir/file1"
-// is sent on r.out. If r.recursive is true and a sub-directory is encountered,
-// it is enqueued for reading. If path is the location of a regular file
-// instead of a directory, that file is sent on r.out and handle returns.
+// is sent on r.out. If the Recursive option is set and a sub-directory is
+// encountered, it is enqueued for reading. If path is the location of a
+// regular file instead of a directory, that file is sent on r.out and handle
+// returns.
 func (r *dirReader) handle(path string) {
 	defer r.busyDirs.Done()
 
