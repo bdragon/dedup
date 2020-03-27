@@ -175,7 +175,7 @@ func TestFilterDir(t *testing.T) {
 			path: "bogus",
 			opts: &Options{fs: FS},
 			check: func(sums *Sums, err error) {
-				if err.Error() != "file does not exist" {
+				if err == nil || err.Error() != "file does not exist" {
 					t.Errorf("1: got %v; want file does not exist", err)
 				}
 			},
