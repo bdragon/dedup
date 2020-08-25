@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/bryandragon/uniq/filesys"
+	"github.com/bdragon/uniq/filesys"
 )
 
 var (

@@ -1,10 +1,10 @@
 # uniq
 
-[![Build Status](https://travis-ci.org/bryandragon/uniq.svg?branch=master)](https://travis-ci.org/bryandragon/uniq)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bryandragon/uniq)](https://goreportcard.com/report/github.com/bryandragon/uniq)
-[![Documentation](https://godoc.org/github.com/bryandragon/uniq?status.svg)](http://godoc.org/github.com/bryandragon/uniq)
-[![Latest release](https://img.shields.io/github/release/bryandragon/uniq/all)](https://github.com/bryandragon/uniq/releases)
-[![BSD-3-Clause License](https://img.shields.io/github/license/bryandragon/uniq.svg)](LICENSE)
+[![Build Status](https://travis-ci.org/bdragon/uniq.svg?branch=master)](https://travis-ci.org/bdragon/uniq)
+[![Go Report Card](https://goreportcard.com/badge/github.com/bdragon/uniq)](https://goreportcard.com/report/github.com/bdragon/uniq)
+[![Documentation](https://godoc.org/github.com/bdragon/uniq?status.svg)](http://godoc.org/github.com/bdragon/uniq)
+[![Latest release](https://img.shields.io/github/release/bdragon/uniq/all)](https://github.com/bdragon/uniq/releases)
+[![BSD-3-Clause License](https://img.shields.io/github/license/bdragon/uniq.svg)](LICENSE)
 
 `uniq` is a command-line utility for detecting duplicate files.
 

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/bryandragon/uniq/filesys"
+	"github.com/bdragon/uniq/filesys"
 )
 
 // Options groups configuration options for Filter and FilterDir.
