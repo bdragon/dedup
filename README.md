@@ -4,7 +4,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/bdragon/dedup)](https://goreportcard.com/report/github.com/bdragon/dedup)
 [![Documentation](https://godoc.org/github.com/bdragon/dedup?status.svg)](http://godoc.org/github.com/bdragon/dedup)
 [![Latest release](https://img.shields.io/github/release/bdragon/dedup/all)](https://github.com/bdragon/dedup/releases)
-[![BSD-3-Clause License](https://img.shields.io/github/license/bdragon/dedup.svg)](LICENSE)
+[![License](https://img.shields.io/github/license/bdragon/dedup)](LICENSE)
 
 `dedup` is a tool for finding duplicate files.
 
